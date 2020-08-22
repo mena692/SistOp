@@ -1,0 +1,21 @@
+# Comandos terminal
+
+
+/                # El directorio raíz contiene todas las demás carpetas en la unidad o carpeta y, por supuesto, también puede contener archivos.
+            
+/ bin           # El directorio / bin contiene los binarios (programas) esenciales del usuario que deben estar presentes cuando el sistema se monta en modo de usuario único.
+/ boot           # Contiene los archivos necesarios para arrancar el sistema; por ejemplo, los archivos del cargador de arranque GRUB y los núcleos de Linux se almacenan aquí.
+/ dev           # 
+/ etc           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+/ bin           # 
+
