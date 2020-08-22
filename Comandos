@@ -2,20 +2,50 @@
 
 
 /                # El directorio raíz contiene todas las demás carpetas en la unidad o carpeta y, por supuesto, también puede contener archivos.
-            
-/ bin           # El directorio / bin contiene los binarios (programas) esenciales del usuario que deben estar presentes cuando el sistema se monta en modo de usuario único.
+/ bin            # El directorio / bin contiene los binarios (programas) esenciales del usuario que deben estar presentes cuando el sistema se monta en modo de usuario único.
 / boot           # Contiene los archivos necesarios para arrancar el sistema; por ejemplo, los archivos del cargador de arranque GRUB y los núcleos de Linux se almacenan aquí.
-/ dev           # 
-/ etc           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-/ bin           # 
-
+/ dev            # Linux expone los dispositivos como archivos, y el directorio / dev contiene una cantidad de archivos especiales que representan dispositivos
+/ etc            # Contiene configuración de archivos, los cuales pueden generalmente ser editados por la mano en un texto editor.
+/ home           # Contiene una carpeta de inicio para cada usuario. 
+/ lib            # Contiene las bibliotecas necesarias por las esenciales binarios en el / bin y / sbin carpeta. Bibliotecas necesarias por los binarios en el / usr / bin 
+                   carpeta se encuentran en / usr / lib.
+/ media          # Contiene subdirectorios donde se montan los dispositivos de medios extraíbles insertados en la computadora.
+/ mnt            # Es donde el sistema de administración montados temporales de archivos de sistemas, mientras que el uso de ellos. 
+/ opt            # Contiene subdirectorios para paquetes de software opcionales.
+/ proc           # Directorio similares a la / dev directorio debido a que no contiene archivos estándar. 
+/ sbin           # Parecido a / bin directorio. Contiene esenciales binarios que están generalmente destinados a ser ejecutado por la raíz de usuario para el sistema de admin.
+/ run            # Es bastante nuevo y ofrece a las aplicaciones un lugar estándar para almacenar archivos transitorios que requieren, como sockets e ID de procesos. 
+/ srv            # Contiene "datos para los servicios proporcionados por el sistema ". 
+/ usr            # Contiene aplicaciones y archivos utilizados por los usuarios, a diferencia de las aplicaciones y archivos utilizados por el sistema.
+/ var            # Es el permiso de escritura contraparte a la / usr directorio, el cual debe ser de sólo lectura en condiciones normales de operación. 
+/ sys            # Le permite obtener información sobre el sistema y sus componentes (principalmente hardware conectado e instalado) de forma estructurada.
+/ tmp            # Almacenan archivos temporales en el directorio / tmp. 
+Uname -a         # Me permite ver el Kernel
+Apt              # Paquete para instalar el software 
+ls               # Me permite ver los directorios
+sudo apt upgrade # Instala versiones nuevas del paquete existente
+sudo apt update  # Actualiza la lista de paquetes disponibles
+apt              # Paquete que nos permite instalar el software
+mkdir            # Crea directorio por medio de una carptea tradicional
+cd               # Mover una carpeta
+-la              # Me permite ver archivos ocultos
+-l               # Enlista
+Pstree           # Ver procesos de un arbol
+touch            # Crea archivos
+ip addr          # Me permite ver la ip
+pwd              # imprime directorio actual
+chmod            # Cambiar permisos de ficheros
+chown            # Cambia el usuario y propietarios de los archivos
+cd               # cambia directorio
+-                # directorio previo
+cat              # Me permite ver el contenido del archivo
+open             # Abrir un archivo con el programa asociado, un directorio con Finder o una URL con el navegador web predeterminado
+ps               # en lista todos los procesos actuales
+lsd release -a   # Ver nombre del sistema operativo
+man              # Consultar manual
+info             # Me permite ver la informacion de un comando
+histroy          # Ver Historial
+kill             # termina el proceso actual
+rmd              # borra un archivo permanente
+rmdir            # elimina directorio
+lsblk            # Imprime informacion de dispotivos como discos duros, volumenes y grupo de volumenes
